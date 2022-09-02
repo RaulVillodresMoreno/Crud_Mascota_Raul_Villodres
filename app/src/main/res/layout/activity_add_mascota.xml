@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEditMascotaActivity">
+
+    <EditText
+        android:id="@+id/edit_text_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:autofillHints="Nombre"
+        android:hint="@string/nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_raza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/raza"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_text_ruta_parcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/ruta_de_la_imagen"
+        android:inputType="text" />
+
+</LinearLayout>

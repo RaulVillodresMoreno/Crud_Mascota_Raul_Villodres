@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_view_ruta_parcial"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_nombre"
+            android:layout_marginTop="43dp"
+            android:text="@string/ruta_parcial" />
+
+        <TextView
+            android:id="@+id/text_view_edad"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="7dp"
+            android:text="@string/edad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/text_view_nombre"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="52dp"
+            android:layout_toStartOf="@id/text_view_edad"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/nombre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/text_view_raza"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_nombre"
+            android:layout_marginTop="16dp"
+            android:text="@string/raza" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MVVM_Practica</string>
+    <string name="save">Save</string>
+    <string name="ruta_de_la_imagen">Ruta de la imagen</string>
+    <string name="raza">Raza</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="ruta_parcial">Ruta parcial</string>
+    <string name="delete_all_mascotas">Delete all mascotas</string>
+</resources>
